@@ -1,0 +1,29 @@
+[[allowlist]]
+description = "False positive: generic-api-key in .vs/config/applicationhost.config"
+rules = ["generic-api-key"]
+paths = [".vs/config/applicationhost.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .vs/config/applicationhost.config"
+rules = ["generic-api-key"]
+paths = [".vs/config/applicationhost.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .vs/config/applicationhost.config"
+rules = ["generic-api-key"]
+paths = [".vs/config/applicationhost.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .vs/config/applicationhost.config"
+rules = ["generic-api-key"]
+paths = [".vs/config/applicationhost.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .vs/config/applicationhost.config"
+rules = ["generic-api-key"]
+paths = [".vs/config/applicationhost.config"]
+
+[[allowlist]]
+description = "False positive: generic-api-key in .vs/config/applicationhost.config"
+rules = ["generic-api-key"]
+paths = [".vs/config/applicationhost.config"]

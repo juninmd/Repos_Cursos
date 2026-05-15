@@ -1,0 +1,31 @@
+﻿@model List<Sorveteria.Model.SOR_T_SORVETE>
+@{
+    ViewBag.Title = "Home Page";
+}
+ 
+<div class="jumbotron">
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a>
+                        <img src="@item.URLFOTO" style="width: 100%"/>
+                        <div class="caption">
+                            <h3>@item.NOME</h3>
+                            <p>@item.DESCRICAO</p>
+                            <p>@item.PRECO</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        }
+        @if (!Model.Any())
+        {
+            <p class="lead">
+                Acabaram os sorvetes
+            </p>
+        }
+    </div>
+</div>

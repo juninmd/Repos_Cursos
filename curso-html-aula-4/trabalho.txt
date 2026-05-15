@@ -1,0 +1,25 @@
+- Login (login.html)
+	email *email valido
+	senha *senha = 123
+	botão de login 
+
+- Cadastro de usuario (cadastroUsuario.html)
+	Nome *max 100 caracteres
+	email *email válido
+	senha *maximo 6 caracteres e minimo 3
+	data de nascimento *Mascara e date picker
+	cpf* mascara de cpf
+
+- Home (home.html)
+	Sorvetes mais procurados* Tabela com nome do sorvete, e quantidade de vendas
+	Apresentar um mapa (use o google maps com alguma sorveteria existente)
+
+- Cadastro de Fornecedor (cadastroFornecedor.html)
+	Nome do fornecedor *max 100
+	CNPJ *Mascara
+	Endereco *(preencher endereço com a consulta via ajax a partir do CEP)
+	telefone *Mascara
+	
+Utilizar Bower para baixar os plugins
+
+jr_acn@yahoo.com.br

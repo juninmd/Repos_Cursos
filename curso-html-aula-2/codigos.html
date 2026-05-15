@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de Usuario</title>
+</head>
+
+<body>
+	<form>
+		<p>
+			<label>Nome do usuário</label>
+			<input type="text" id="txtNome" placeholder="ex: João" required maxlength="20" />
+		</p>
+		<p>
+			<label>Data de nascimento</label>
+			<input type="date" id="txtData" placeholder="ex: 01/01/2000" required maxlength="10" />
+		</p>
+		<p>
+			<label>CPF</label>
+			<input type="text" placeholder="000.000.000-00" required />
+		</p>
+		<input type="button" value="Qual é o meu nome?" onclick="meuNome()">
+		<input type="button" value="Valida data de nascimento" onclick="validaDataNascimento()"> 
+		<button>Enviar</button>
+		<input type="reset" value="Apagar tudo">
+	</form>
+
+	<script src="app.js"></script>
+</body>
+
+</html>

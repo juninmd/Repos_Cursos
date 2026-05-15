@@ -1,0 +1,78 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de Usuario</title>
+</head>
+
+<body>
+	<form>
+		<p>
+			<label>Nome do usuário</label>
+			<input type="text" placeholder="ex: João" required maxlength="20" />
+		</p>
+		<p>
+			<label>Data de nascimento</label>
+			<input type="date" placeholder="ex: 01/01/2000" required maxlength="10" />
+		</p>
+		<p>
+			<label>CPF</label>
+			<input type="text" placeholder="000.000.000-00" required />
+		</p>
+		<p>
+			<label>RG</label>
+			<input type="text" placeholder="00.000.000-0" required />
+		</p>
+		<p>
+			<label>Quantidade de idiomas que domina</label>
+			<input type="number" min="0" max="5" required />
+		</p>
+		<p>
+			<label>Tem filhos ?</label>
+			<input type="checkbox" required />
+		</p>
+		<p>
+			<label>Senha secreta</label>
+			<input type="password" required />
+		</p>
+		<p>
+			<label>Email</label>
+			<input type="email" required />
+		</p>
+		<p>
+			<label>Anotação</label>
+			<textarea required></textarea>
+		</p>
+
+		<p>
+			<label>Genêro</label>
+			<input required type="radio" name="gender" value="male" checked> Homem
+			<input required type="radio" name="gender" value="female"> Mulher
+			<input required type="radio" name="gender" value="other"> Outro
+		</p>
+
+		<p>
+			<label>Habilidades com Esportes</label>
+			<input type="range" name="points" min="0" max="10">
+		</p>
+
+		<p>
+			<label>Cor</label>
+			<input type="color" required>
+		</p>
+
+		<p>
+			<label>Url</label>
+			<input type="url" required>
+		</p>
+
+		<p>
+			<input type="hidden" name="secreto" value="sou secreto">
+		</p>
+
+		<button>Enviar</button>
+		<input type="reset" value="Apagar tudo">
+	</form>
+</body>
+
+</html>
