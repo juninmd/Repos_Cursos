@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-labelledby="t d">
+  <title id="t">Repos_Cursos</title>
+  <desc id="d">Course folders grouped in one repository: Angular, Ionic, React Native, Node.js, JavaScript, Git, HTML, C#, SQL and Slack</desc>
+  <rect width="860" height="260" rx="14" fill="#0d1b2a"/>
+  <rect x="24" y="24" width="812" height="212" rx="10" fill="#1b263b" stroke="#415a77"/>
+  <circle cx="46" cy="44" r="6" fill="#e5484d"/><circle cx="66" cy="44" r="6" fill="#f5a524"/><circle cx="86" cy="44" r="6" fill="#30a46c"/>
+  <text x="110" y="49" font-family="monospace" font-size="13" fill="#778da9">Repos_Cursos/</text>
+  <g font-family="monospace" font-size="15" fill="#e0e1dd">
+    <text x="48" y="86">Curso-Angular-4/</text>
+    <text x="48" y="112">Curso-Ionic-3/</text>
+    <text x="48" y="138">curso-react-native/</text>
+    <text x="48" y="164">curso-node-js/</text>
+    <text x="48" y="190">curso-node-ts/</text>
+    <text x="48" y="216">curso-javascript/</text>
+    <text x="330" y="86">curso-git/</text>
+    <text x="330" y="112">curso-html-aula-1..8/</text>
+    <text x="330" y="138">curso-web-development/</text>
+    <text x="330" y="164">Curso-Slack/</text>
+  </g>
+  <text x="620" y="130" font-family="sans-serif" font-size="30" font-weight="700" fill="#e0e1dd">Repos_Cursos</text>
+  <text x="620" y="156" font-family="sans-serif" font-size="14" fill="#778da9">17 pastas de curso, 1 repositório</text>
+</svg>
