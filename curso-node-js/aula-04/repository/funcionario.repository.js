@@ -12,16 +12,16 @@ module.exports = {
         return mysql.executeString(`SELECT * from funcionario where id = ${id}`);
     },
     getAll: (filter) => {
-        let query = `SELECT * from funcionario`;
+        const conditions = [];
         if (filter.nome) {
-            query += ` where nome = '${filter.nome}'`;
+            conditions.push(`nome = '${filter.nome}'`);
         }
-        if (filter.nome && filter.cargo) {
-            query += ` and cargo like '%${filter.cargo}%'`;
+        if (filter.cargo) {
+            conditions.push(`cargo like '%${filter.cargo}%'`);
         }
 
-        console.log(query);
-        return mysql.executeString(query);
+        const where = conditions.length ? ` where ${conditions.join(' and ')}` : '';
+        return mysql.executeString(`SELECT * from funcionario${where}`);
     },
     deleteById: (id) => {
         return mysql.executeString(`DELETE from funcionario where id = ${id} `);
